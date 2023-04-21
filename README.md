@@ -8,4 +8,6 @@ Modify parameters at end of file to set desired configurations.
 Render the template locally and deploy it to the cluster:
 
 ```bash
-oc process --local -f https://github.com/kazoconnor/sap-template/main/sap-template.yaml | oc apply -n <namespaceY -f -
+oc process --local -f https://github.com/kazoconnor/sap-template/blob/main/sap-template.yaml | oc apply -n <namespace> -f -
+
+
