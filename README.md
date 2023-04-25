@@ -3,7 +3,7 @@ SAP Template for running SAP Netweaver on a RHEL 8 VM in Openshift Virtualizatio
 
 Modify parameters at end of file to set desired configurations.
 
-## Start the VM from the template
+## Deploy & Start the VM from the template
 
 Render the template locally and deploy it to the cluster:
 
